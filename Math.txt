@@ -1,0 +1,40 @@
+class A{
+
+   // Adder
+    int add(int i,int j){
+    System.out.println(i+j); // performing commit 1 on master branch      
+    return i+j;
+      
+    }
+
+    // Substractor    
+    int sub(int i,int j){
+        System.out.println(i-j);// performing commit 1 on bug456 branch
+       return i-j;
+    }
+
+    // Multiplier                 //performing commit 6 on mul on master branch 
+    int mul(int i,int j){         //performing commit 7 on mul on master branch
+      System.out.println(i*j);
+       return i*j;               //performing commit 8 on mul on bug000 branch
+    }                            //performing commit 9 on mul on bug000 branch
+
+      //commit 10 on master branch
+      //commit 11 on master branch
+      //commit 10 on bug111 branch
+      //commit 11 on master branch
+    
+    //Divider
+    int div(int i,int j){
+      System.out.println(i/j + i%j);
+         // performing commit2 on div on master branch
+          //performing commit 3 on div on master branch
+         // performing commit 4 on div on bug789 branch
+          // performing commit 5 on div on bug789 branch
+        return i/j + i%j ;    
+     
+     //stash
+      
+
+    }
+}
