@@ -19,7 +19,7 @@ class A{
     }                           
 
       
-    
+    // for LR
     //Divider
     int div(int i,int j){
         return i/j + i%j ;    
