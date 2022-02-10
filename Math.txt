@@ -1,7 +1,7 @@
 class A{
 //for remote repo
 //for bug123
-//for bug456 for direct to remote
+//for bug456  for direct to remote
    // Adder
     int add(int i,int j){
     return i+j;
