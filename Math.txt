@@ -1,5 +1,5 @@
 class A{
-
+//for remote repo
    // Adder
     int add(int i,int j){
     System.out.println(i+j); // performing commit 1 on master branch      
